@@ -1,0 +1,141 @@
+/* CSS-variable */
+:root {
+  --main-text-color: #2e2f42;
+  --main-background-color: #e5e5e5;
+  --main-font-family: Roboto, sans-serif;
+  --focus-color: #4d5ae5;
+  --hover-color: #4d5ae5;
+  --footer-background-color: #2e2f42;
+}
+
+/* body main characters */
+body {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+  font-family: var(--main-font-family);
+  letter-spacing: 0.02em;
+}
+
+/* header */
+.header {
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--main-text-color);
+  text-transform: uppercase;
+}
+.first-part-logo {
+  color: #4d5ae5;
+}
+.link {
+  text-decoration: none;
+  color: #2e2f42;
+}
+.link-contacts {
+  text-decoration: none;
+  color: #434455;
+}
+.link:hover {
+  color: var(--hover-color);
+}
+.link:focus {
+  color: var(--focus-color);
+}
+.link-contacts:hover {
+  color: var(--hover-color);
+}
+
+.link-contacts:focus {
+  color: var(--focus-color);
+}
+
+.list {
+  list-style-type: none;
+}
+/* .list-item {
+} */
+.adress {
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+}
+/* hero section */
+.visually-hidden {
+  position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.hero {
+  color: #ffffff;
+  background-color: var(--footer-background-color);
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1.07;
+  text-align: center;
+}
+.button {
+  width: 170px;
+  height: 51px;
+  border: none;
+  --font-family: inherit;
+
+  background: #4d5ae5;
+  color: #ffffff;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.33;
+}
+.button:hover {
+  background-color: var(--hover-color);
+}
+.button:focus {
+  background-color: var(--focus-color);
+}
+.button {
+  cursor: pointer;
+}
+
+/* second section */
+.second-priority-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+}
+.third-priority-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.team-section-background-color {
+  background-color: #f4f4fd;
+}
+.feature-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* footer */
+.footer-colors {
+  background-color: var(--footer-background-color);
+  color: #e7e9fc;
+}
+.second-part-logo {
+  color: #f4f4fd;
+}

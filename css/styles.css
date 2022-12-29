@@ -24,7 +24,7 @@ body {
   line-height: 1.5;
 }
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -70,15 +70,15 @@ body {
 /* hero section */
 .visually-hidden {
   position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 .hero {
   color: #ffffff;
@@ -92,15 +92,17 @@ body {
   width: 170px;
   height: 51px;
   border: none;
-  --font-family: inherit;
 
   background: #4d5ae5;
   color: #ffffff;
 
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
+
+  cursor: pointer;
 }
 .button:hover {
   background-color: var(--hover-color);
@@ -108,20 +110,19 @@ body {
 .button:focus {
   background-color: var(--focus-color);
 }
-.button {
-  cursor: pointer;
-}
 
 /* second section */
 .second-priority-title {
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
 }
 .third-priority-title {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
+  text-align: center;
 }
 .team-section-background-color {
   background-color: #f4f4fd;

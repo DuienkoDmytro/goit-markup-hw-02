@@ -17,6 +17,12 @@
   --logo-second-part-color: #f4f4fd;
   --team-section-bckgnd-color: #f4f4fd;
   --feature-text: #434455;
+  --portfolio-btn-background-color: #f4f4fd;
+  --portfolio-btn-text-color: #4d5ae5;
+  --hover-portfolio-btn-background-color: #404BBF;
+  --focus-portfolio-btn-background-color: #404BBF;
+  --hover-portfolio-btn-text-color: #ffffff;
+  --focus-portfolio-btn-text-color: #ffffff;
 }
 
 /* body main characters */
@@ -125,7 +131,6 @@ body {
 .button:focus {
   background-color: var(--btn-hover-background-color);
 }
-
 /* second section */
 .second-priourity-title {
   font-weight: 700;
@@ -157,4 +162,26 @@ body {
 }
 .second-part-logo {
   color: var(--logo-second-part-color);
+}
+/* -----------------------page-portfolio--------------------- */
+.portfolio-btn {
+  border: none;
+
+  background: var(--portfolio-btn-background-color);
+  color: var(--portfolio-btn-text-color);
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.portfolio-btn:hover {
+  background: var(--hover-portfolio-btn-background-color);
+  color: var(--hover-portfolio-btn-text-color);
+}
+.portfolio-btn:focus {
+  background: var(--focus-portfolio-btn-background-color);
+  color: var(--focus-portfolio-btn-text-color);
 }

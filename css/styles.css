@@ -50,6 +50,7 @@ body {
   color: var(--main-text-color);
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .first-part-logo {
   color: var(--logo-first-part-color);
